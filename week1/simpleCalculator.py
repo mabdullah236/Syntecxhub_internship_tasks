@@ -1,5 +1,3 @@
-import os
-
 def add(a,b):
     return a+b
 def subtract(a,b):
@@ -51,4 +49,5 @@ def calculator():
         print(f"\nResult: {result}")
 
 if __name__ == "__main__":
+
     calculator()
