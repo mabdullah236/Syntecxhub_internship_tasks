@@ -38,18 +38,20 @@ def calculator():
         num1 = getInput("Enter first number: ")
         num2 = getInput("Enter second number: ")
 
-        if operator == '+': 
-            result = add(num1, num2)
-        elif operator == '-': 
-            result = subtract(num1, num2)
-        elif operator == '*': 
-            result = multiply(num1, num2)
-        elif operator == '/': 
-            result = division(num1, num2)
+        match operator:
+            case "+":
+                result = add(num1,num2)
+            case "-":
+                result = subtract(num1,num2)
+            case "*":
+                result = multiply(num1,num2)
+            case "/":
+                result = division(num1,num2)
             
         print(f"\nResult: {result}")
 
 if __name__ == "__main__":
 
     calculator()
+
 
