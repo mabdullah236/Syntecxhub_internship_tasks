@@ -1,1 +1,37 @@
+import pandas as pd
+import argparse
+import logging
+import sys
 
+logging.basicConfig(level=logging.INFO)
+
+parser=argparse.ArgumentParser()
+parser.add_argument("--input",required=True)
+parser.add_argument("--output",required=True)
+args=parser.parse_args()
+
+try:
+    df=pd.read_csv(args.input,low_memory=False)
+    logging.info("CSV file loaded successfully")
+except Exception as e:
+    logging.error(f"Unable to read file{e}")
+    sys.exit()
+
+for col in df.columns:
+    if df[col].dtype=="object":
+        df[col].fillna("N/A")
+    else:
+        df[col].fillna(0)
+
+df.rename(columns={"Industry_code_ANZSIC06": "Code"}, inplace=True)
+
+try:
+    df["Survey-date"]=pd.to_datetime(df['Survey-date'],errors="coerce")
+except Exception as e:
+    logging.warning("Date column could bot be parsed")
+
+try:
+    df.to_excel(args.output,index=False)
+    logging.info("File successfully converted into Excel")
+except Exception as e:
+    logging.error(f"Failed to save Excel file{e}")
