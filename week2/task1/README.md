@@ -1,7 +1,8 @@
 ```markdown
 #  Student Management System (CRUD)
 
-A Python-based management system that uses **Object-Oriented Programming (OOP)** principles to manage student records. It allows users to perform
+A Python-based management system that uses **Object-Oriented Programming (OOP)** principles to manage student records.
+It allows users to perform
 CRUD (Create, Read, Update, Delete) operations with persistent data storage in a JSON file.
 
 # Key Features
@@ -30,7 +31,7 @@ StudentManagement/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/student-management-system.git](https://github.com/your-username/student-management-system.git)
+   git clone https://github.com/mabdullah236/Syntecxhub_internship_tasks/blob/main/week2/task1.git
    cd student-management-system
    ```
 2. **Run the script:**
