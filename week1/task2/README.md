@@ -1,7 +1,8 @@
 ```markdown
 # Number Guessing Game
 
-An interactive command-line game where the player tries to guess a randomly generated number. The game features multiple difficulty levels and smart feedback
+An interactive command-line game where the player tries to guess a randomly generated number. The game features multiple
+difficulty levels and smart feedback
 to guide the user toward the correct answer.
 
 # Features
