@@ -1,4 +1,4 @@
-- A python calculator with error handling.
+- A clean and interactive Python-based calculator that performs basic arithmetic operations.
 - A number guessing game with error handling.
 - A Python-based management system that uses **Object-Oriented Programming (OOP)** principles to manage student records.
 - A robust Python CLI tool designed to automate the process of converting CSV files into formatted Excel workbooks.
