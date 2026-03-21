@@ -23,7 +23,9 @@ for col in df.columns:
     else:
         df[col].fillna(0)
 
-df.rename(columns={"Industry_code_ANZSIC06": "Code"}, inplace=True)
+if "Industry_code_ANZSIC06" in df.columns:
+    df.rename(columns={"Industry_code_ANZSIC06": "Code"}, inplace=True)
+    logging.info("Column 'Industry_code_ANZSIC06' renamed to 'Code'")
 
 try:
     df["Survey-date"]=pd.to_datetime(df['Survey-date'],errors="coerce")
