@@ -2,8 +2,7 @@
 # Number Guessing Game
 
 An interactive command-line game where the player tries to guess a randomly generated number. The game features multiple
-difficulty levels and smart feedback
-to guide the user toward the correct answer.
+difficulty levels and smart feedback to guide the user toward the correct answer.
 
 # Features
 - **Multiple Difficulty Levels:** - **Easy (e):** Guess between 1-10.
