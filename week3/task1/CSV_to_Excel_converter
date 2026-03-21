@@ -30,7 +30,7 @@ if "Industry_code_ANZSIC06" in df.columns:
 try:
     df["Survey-date"]=pd.to_datetime(df['Survey-date'],errors="coerce")
 except Exception as e:
-    logging.warning("Date column could bot be parsed")
+    logging.warning("Date column could not be parsed")
 
 try:
     df.to_excel(args.output,index=False)
