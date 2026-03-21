@@ -1,0 +1,7 @@
+news.db
+
+*.csv
+*.xlsx
+
+__pycache__/
+*.pyc
