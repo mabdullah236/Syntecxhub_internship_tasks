@@ -8,16 +8,18 @@ A professional Python-based Command Line Interface (CLI) tool to fetch, filter, 
 - **CLI Filters:** Search stored news by keyword or source directly from the terminal.
 - **Data Export:** Generate professional reports in **CSV** or **Excel** formats using Pandas.
 - **Error Handling:** Robust try-except blocks to handle network issues and API limits.
+---
 
 # Project Structure
+```text
 NewsAggregator/
-|----- main.py            # Entry point & CLI Argument Handling
-|----- scraper.py         # API integration & Error Handling
-|----- database.py        # SQLite Logic & Deduplication
-|----- exporter.py        # CSV/Excel Automation Logic
-|----- requirements.txt   # Project Dependencies
-|----- README.md          # Project Documentation
-
+├── main.py            # Entry point & CLI Argument Handling
+├── scraper.py         # API integration & Error Handling
+├── database.py        # SQLite Logic & Deduplication
+├── exporter.py        # CSV/Excel Automation Logic
+├── requirements.txt   # Project Dependencies
+└── README.md          # Project Documentation
+```
 # Installation & Setup
 
 1. **Clone the repository:**
