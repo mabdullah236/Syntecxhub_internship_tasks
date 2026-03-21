@@ -54,4 +54,3 @@ Upon running the script, you will see a menu:
 - **`json.dump()` & `json.load()`:** Used to convert Python objects to JSON and vice versa.
 - **List Comprehension:** Used in `delete_student` and `load_data` for concise and efficient data filtering.
 - **Exception Handling:** Includes `try-except` blocks to handle missing `students.json` files gracefully.
-```
