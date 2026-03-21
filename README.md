@@ -1,5 +1,5 @@
 - A clean and interactive Python-based calculator that performs basic arithmetic operations.
-- A number guessing game with error handling.
+- An interactive command-line game where the player tries to guess a randomly generated number.
 - A Python-based management system that uses **Object-Oriented Programming (OOP)** principles to manage student records.
 - A robust Python CLI tool designed to automate the process of converting CSV files into formatted Excel workbooks.
 - A professional Python-based Command Line Interface (CLI) tool to fetch, filter, and export news headlines.
