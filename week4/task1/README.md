@@ -24,7 +24,7 @@ NewsAggregator/
 
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/your-username/news-aggregator-cli.git](https://github.com/your-username/news-aggregator-cli.git)
+   git clone https://github.com/mabdullah236/Syntecxhub_internship_tasks/tree/main/week4/task1/news_aggregator.git
    cd news-aggregator-cli
 ```
 2. **Install required libraries:**
